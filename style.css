@@ -1,0 +1,58 @@
+body {
+    overflow: hidden;
+}
+.wrapper{
+    width: 100%;
+    background-color: rgb(182, 166, 146);
+    height: 100vh;
+    display: flex;
+}
+
+.form__container {
+    max-width: 1440px;
+    height: 318px;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.result__item {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.result {
+    background-color: azure;
+    height: 200px;
+    overflow: auto;
+    font-size: 25px;
+
+}
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__item__checkbox {
+    display: flex;
+    flex-direction: row;
+}
+.form__button,
+.form__label {
+font-size: 25px;
+}
+
+.form__input {
+    height: 25px;
+    font-size: 25px;
+}

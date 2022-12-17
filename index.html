@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Home Work 2</title>
+    </head>
+    <body>
+        <div class="wrapper">
+          <div class="form__container">
+            <div class="result__item">
+              <h2 class="result__title">Сума без парних</h2>
+              <p class="result without__pairs"></p>
+            </div>
+            <form class="form" action="" onsubmit="return false;">
+                <div class="form__item">
+                  <label for="N" class="form__label">Введіть число N</label>
+                  <input type="number" class="form__input" id="N">
+                </div>
+                <div class="form__item">
+                  <label for="M" class="form__label">Введіть число M</label>
+                  <input type="number" class="form__input" id="M">
+
+                </div>
+                <div class="form__item form__item__checkbox">
+                  <input type="checkbox" class="form__checkbox" id="C">
+                  <label for="C" class="form__label">Пропустити парні числа</label>
+                </div>
+                <div class="form__item">
+                  <button class="form__button">Порахувати</button>
+                </div>
+            </form>
+            <div class="result__item">
+              <h2 class="result__title">Сума всіх чисел</h2>
+              <p class="result all__numbers"></p>
+            </div>
+          </div>
+        </div>
+      <script src="./script/script.js"></script>
+    </body>
+</html>
